@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">Tims App</string>
+        <string name="USD">US Dollar</string>
+        <string name="JMD">Jamaican Dollar</string>
+        <string name="CAD">Canadian Dollar</string>
+        <string name="NZD">New Zealand Dollar</string>
+        <string name="AUD">Australian Dollar</string>
+        <string name="button_one">Press Here to Convert</string>
+        <string name="tView">1</string>
+        <string name="action_settings">This is action settings</string>
+
+</resources>

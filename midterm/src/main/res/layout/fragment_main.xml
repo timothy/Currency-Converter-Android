@@ -1,0 +1,108 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NZD"
+            android:id="@+id/from_NZD_radio"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AUD"
+            android:id="@+id/from_AUD_radio" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/USD"
+            android:id="@+id/from_USD_radio" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/JMD"
+            android:id="@+id/from_JMD_radio" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CAD"
+            android:id="@+id/from_CAD_radio" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NZD"
+            android:id="@+id/to_NZD_radio"
+            android:checked="true" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AUD"
+            android:id="@+id/to_AUD_radio" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/USD"
+            android:id="@+id/to_USD_radio" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/JMD"
+            android:id="@+id/to_JMD_radio" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CAD"
+            android:id="@+id/to_CAD_radio" />
+
+        </RadioGroup>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/editText"
+        android:layout_gravity="center"
+        android:text="1.00"
+        android:textSize="40dip" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1"
+        android:id="@+id/textView"
+        android:layout_gravity="right|top"
+        android:textSize="50dip"
+        android:gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Final Amount"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|top" />
+
+
+</FrameLayout>
